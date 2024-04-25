@@ -6,6 +6,7 @@ the hit rate of a prop for:
 (2) The "head-to-head" games that a player played in
 (3) The games where a player faced off against a specific player when they're on or off the court  
 
+FYI: This app uses data from 2023-24 regular season of the NBA, so it's excluding the playoffs.
 
 ## Installation
 
