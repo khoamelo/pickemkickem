@@ -53,6 +53,7 @@ Choose one of the three options and you will be asked to fill in and choose spec
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/636b5331-b2ad-494a-b21d-50f2a779a91f)
 
 After you enter fill out all the required details, it will calculate how often the prop for that player hits based on the factor you chose and the hit rate percentage, and you can press the 'Return to Player Section' button to check more players:
+
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/3e22bbd4-3cb2-43ea-a53a-bbcdbfac77f1)
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/a250b682-9c56-423a-a3c5-b2c90e51a588)
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/95ef7f05-4024-414d-995e-e5199726699a)
