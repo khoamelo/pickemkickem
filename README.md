@@ -48,6 +48,8 @@ Once you enter in the FULL name of the NBA player (De'Aaron Fox, LeBron James, e
 
 
 Choose one of the three options and you will be asked to fill in and choose specific details that will help calculate the hit rate of a players prop:
+
+
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/bd48a3fa-4657-4099-b16e-da0435eb1759)
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/388d1a8d-4655-42b8-a849-dd2ccd859c55)
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/636b5331-b2ad-494a-b21d-50f2a779a91f)
