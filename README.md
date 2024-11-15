@@ -1,4 +1,8 @@
+
+
 # Pick 'Em Or Kick 'Em
+
+https://github.com/khoamelo/pickemkickem/assets/123230736/b60bafbd-ab61-4d92-a123-f56e9de590fb
 
 An app designed to help sports bettors choose NBA props with the best chances of hitting by calculating the "hit rate" of a prop that the user wants to check. The app can check
 the hit rate of a prop for:
@@ -61,3 +65,5 @@ After you enter fill out all the required details, it will calculate how often t
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/3e22bbd4-3cb2-43ea-a53a-bbcdbfac77f1)
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/a250b682-9c56-423a-a3c5-b2c90e51a588)
 ![image](https://github.com/khoamelo/pickemkickem/assets/123230736/95ef7f05-4024-414d-995e-e5199726699a)
+
+
