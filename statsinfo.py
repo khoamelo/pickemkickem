@@ -71,7 +71,15 @@ def get_spec_stats(player_games_df, stat):
         'PTS': player_games_df['PTS'].tolist(),
         'REB': player_games_df['REB'].tolist(),
         'AST': player_games_df['AST'].tolist(),
-        'PRA': (player_games_df['PTS'] + player_games_df['REB'] + player_games_df['AST']).tolist()
+        'PRA': (player_games_df['PTS'] + player_games_df['REB'] + player_games_df['AST']).tolist(),
+        '3PM': player_games_df['FG3M'].tolist(),
+        'DREB': player_games_df['DREB'].tolist(),
+        'OREB': player_games_df['OREB'].tolist(),
+        '3PA': player_games_df['FG3A'].tolist(),
+        'FTM': player_games_df['FTM'].tolist(),
+        'FGA': player_games_df['FGA'].tolist(),
+        'BLK': player_games_df['BLK'].tolist(),
+        'STL': player_games_df['STL'].tolist()
     }
     return stat_dict[stat]
 
@@ -164,7 +172,7 @@ def get_game_id_from_teams(team_id):
     :return: The list of all the game IDs that the team played in
     :rtype: list
     """
-    game_log = teamgamelog.TeamGameLog(season='2023-24', season_type_all_star='Regular Season', team_id=team_id)
+    game_log = teamgamelog.TeamGameLog(season='2024-25', season_type_all_star='Regular Season', team_id=team_id)
     game_log_df = game_log.team_game_log.get_data_frame()
     game_id = game_log_df['Game_ID'].tolist()
     return game_id
@@ -184,7 +192,7 @@ def h2h_games(player_id, opp_team_id):
     player_h2h_games = playergamelogs.PlayerGameLogs(player_id_nullable=player_id,
                                                      opp_team_id_nullable=opp_team_id,
                                                      season_type_nullable='Regular Season',
-                                                     season_nullable='2023-24')
+                                                     season_nullable='2024-25')
     player_h2h_games_df = player_h2h_games.player_game_logs.get_data_frame()
     return player_h2h_games_df
 
@@ -201,10 +209,10 @@ def get_all_h2h_games(team1_name, team2_name):
     :rtype: list
     """
     t1games = teamgamelogs.TeamGameLogs(team_id_nullable=get_team_id(team1_name),
-                                        season_nullable='2023-24').team_game_logs.get_data_frame()
+                                        season_nullable='2024-25').team_game_logs.get_data_frame()
 
     t2games = teamgamelogs.TeamGameLogs(team_id_nullable=get_team_id(team2_name),
-                                        season_nullable='2023-24').team_game_logs.get_data_frame()
+                                        season_nullable='2024-25').team_game_logs.get_data_frame()
 
     t1game_set = set(t1games['GAME_ID'].tolist())
     t2game_set = set(t2games['GAME_ID'].tolist())

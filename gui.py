@@ -86,7 +86,7 @@ class PickEmKickEm(tk.Tk):
         # stat menu widget
         stat_label = tk.Label(self.last_n_games_frame, text='Choose a stat to check:')
         stat_label.grid(row=2, column=0, sticky='w')
-        self.stat_options = ['PTS', 'REB', 'AST']
+        self.stat_options = ['PTS', 'REB', 'AST', 'PRA', '3PM', 'DREB', 'OREB', '3PA', 'FTM', 'FGA', 'BLK', 'STL']
         self.chosen_stat_menu = ttk.Combobox(self.last_n_games_frame, values=self.stat_options)
         self.chosen_stat_menu.grid(row=2, column=1, padx=5, pady=5)
 
